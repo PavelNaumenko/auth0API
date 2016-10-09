@@ -1,0 +1,23 @@
+{
+  "auth0": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJHbTZtWFQ0T3c4NmhvMlRBR29OQm1UbUd2TGM2OGhvRiIsInNjb3BlcyI6eyJ1c2VycyI6eyJhY3Rpb25zIjpbImNyZWF0ZSJdfX0sImlhdCI6MTQ3NjAwNzA1OSwianRpIjoiN2ZjNzVhNjZkMmJmMDA3MWVhOTZjOGUwM2NkYWEyNTUifQ.SwGuwreNxcjCKkRL6aNftp3HDYl5wA_A_Xc1M2Z_1N8"
+  },
+
+  "development": {
+
+    "APP_NAME": "AUTH0 API",
+    "DATABASE" : "mongodb://localhost/dropBoxTask",
+    "URL" : "http://127.0.0.1",
+    "PORT" : "8989"
+
+  },
+
+  "production": {
+
+    "APP_NAME": "Prod server",
+    "DATABASE" : "mongodb://localhost/clearproject",
+    "URL" : "https://api.site.com",
+    "PORT" : ""
+
+  }
+}
